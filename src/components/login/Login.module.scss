@@ -1,0 +1,94 @@
+main{
+    display: flex;
+}
+
+.containerNavio{
+    //border: solid red;
+    width: 60%; // medida para largura: vw ou %
+    height: 100vh; //medida para altura: vh
+    background-image: url('../../assets/Tela\ Login/backgroundLogin.png');
+    background-repeat: no-repeat;
+}
+
+.containerForm{
+   // border: solid blue;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; //Alinha o item na horizontal
+    justify-content: center;//Alinha o item na vertical
+    
+    h1{
+        //display: flex;
+        //border: solid green;
+        font-size: 2rem;
+        font-weight: 700;
+        width: 50%;
+        //align-items: center;
+        text-align: center;
+        
+
+    }
+
+    p{
+        color: #0844C4;
+        font-weight: 700;
+    }
+}
+
+form{
+   // border: solid black;
+    width: 50%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    input{
+        width: 80%;
+        height: 4vh;
+        border-radius: 6px;
+        border-color: #cbd4e1;
+        
+        }
+
+    div{
+      //  border: solid green;
+        width: 70%;
+        height: 6vh;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    a{
+        text-decoration: none;
+        color: #001A3D;
+    }
+}
+
+.buttonEntrar{
+    background-color: #001A3D;
+    color: white;
+    width: 40%;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-style: none;
+
+}
+
+.buttonCriarconta{
+    background-color: #00BEDD;
+    color: white;
+    width: 40%;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-style: none;
+    
+
+}
+
+
