@@ -13,6 +13,8 @@ import styles from "./Reembolsos.module.scss"
 
 
 function Reembolsos (){
+
+
     return (
 
         <div className={styles.layoutReembolso}>
@@ -53,7 +55,7 @@ function Reembolsos (){
 
             <section className={styles.containerStatus}> 
             <div>
-                <img className={styles.imgSolicitacoes} src={numeroSolicitacoes} alt="" />
+           <img className={styles.imgSolicitacoes} src={numeroSolicitacoes} alt="" />
                 <h4>182</h4>
                 <p>Solicitações</p>
             </div>

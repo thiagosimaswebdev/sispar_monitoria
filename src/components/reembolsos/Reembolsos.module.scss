@@ -75,14 +75,34 @@ article{
 .imgSolicitacoes{
     background-color: #00bedd ;
     border-radius: 6px;
-    padding: 6px;
+    padding: 8px;
    
+}
+
+.imgEmAnalise{
+    background-color: #E56700;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.imgAprovados{
+    background-color: #007A6A;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.imgRejeitados{
+    background-color: #A60B2F;
+    border-radius: 6px;
+    padding: 8px;
 }
 
 .sistAtualizado{
     display: flex;
-    //justify-content: space-evenly;
+    //border: solid orange;
+    justify-content:flex-start;
     width: 60%;
+    
     color: #0844C4;
     margin-top: 40px;
     
