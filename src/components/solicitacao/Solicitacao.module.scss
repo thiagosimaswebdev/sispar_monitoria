@@ -1,15 +1,185 @@
-.containerColicitacao{
-    border: solid blue;
+.containerPrincipalSolicitacao{
+   // border: solid blue;
+   display: flex;
+   flex-direction: column;
+ //  justify-content: space-around;
     width: 95vw;
 }
 .headerSolicitacao{
-    border: solid green;
+   // border: solid green;
     display: flex;
     width: 20vw;
+   // height: 5vh;
     justify-content: space-evenly;
 }
 
 .layoutSolicitacao{
+   //border: solid red;
     display: flex;
+    height: 20vw;
 
+}
+
+.mainSolicitacao{
+   // border: solid;
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.formSolicitacao{
+   // border: solid;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+//Estilizando input, selec e textarea
+
+input, select, textarea{
+    border-radius: 6px;
+    border: solid #cbd4e1 0.8px; 
+    height: 4vh;
+    width: 100%;
+}
+
+label{
+    color: #23282f;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+textarea{
+    height: 10vh;
+   // width: 95%;
+}
+
+//Estilizando grupo 1
+.grupo1{
+   // border: solid;
+    display: flex;
+    width: 35%;
+    height: 25vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputNome{
+   // border: solid maroon;
+    width: 45%;
+}
+
+.inputEmpresa{
+  //  border: solid yellowgreen;
+    width: 25%;
+}
+
+.inputPrestacao{
+   // border: solid purple;
+    width: 25%;
+}
+
+.inputMotivo{
+    //border: solid grey;
+    width: 100%;
+    
+}
+
+//estilização da barra vertical
+
+.barraVertical{
+    width: 0.1vw;
+    height: 25vh;
+    border: solid #cbd4e1 1px;
+    
+}
+
+//estilizando grupo 2
+
+//daqui pra baixo foi copiado e colado
+
+.grupo2{
+    width: 60%;
+    height: 25vh;
+    //border: solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputData{
+    //border: solid green;
+    width: 25%;
+}
+
+.despesas{
+   // border: solid blue;
+    width: 30%;
+}
+
+.centroDeCusto{
+    //border: solid purple;
+    width: 40%;
+}
+
+.ordem, .divisoes, .pep, .distancia{
+   // border: solid orange;
+    width:8%;
+}
+
+.moeda, .valorKm, .valorFaturado, .despesa{
+//border: solid rgb(16, 137, 80);
+width: 11%;
+}
+
+.botoes{
+    width: 15%;
+    //border: solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.botaoSalvar{
+background-color: #001A3D;
+color: #ffffff;
+width: 5vw;
+}
+
+.botaoDeletar{
+background-color: #00BEDD;
+color: #ffffff;
+width: 2vw;
+}
+
+//Estilização da tabela
+
+.tabelaSolicitacao{
+    display: flex;
+    height: 30vw;
+    justify-content: space-around;
+
+
+
+}
+
+  table{
+    width: 95%;
+    border: solid;
+    border-collapse: collapse;
+
+}
+th{
+    background-color: #CBD4E1;
+    font-weight: 400;
+    font-size: 1rem;
+}
+td, th{
+    border: solid #F1F4F9 0.8px;
+    text-align: center;
+  
 }
